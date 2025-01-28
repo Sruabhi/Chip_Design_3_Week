@@ -120,3 +120,385 @@ Full documentation at: <http://www.gnu.org/software/coreutils/ls>
 or available locally via: info '(coreutils) ls invocation'
 vsduser@vsdsquadron:~/Desktop/work/tools$ 
 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The folder of files that can be  accessed through pdks 
+
+
+
+vsduser@vsdsquadron:~/Desktop$ cd work/tools/
+vsduser@vsdsquadron:~/Desktop/work/tools$ ls -ltr
+total 8
+drwxrwxr-x 7 vsduser docker 4096 Jun 28  2021 vsdflow
+drwxrwxrwx 5 vsduser docker 4096 Jun 29  2021 openlane_working_dir
+vsduser@vsdsquadron:~/Desktop/work/tools$ cd  openlane_working_dir
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir$ ls -ltr
+total 12
+drwxr-xr-x  5 vsduser docker 4096 Jun 28  2021 pdks
+drwxr-xr-x 10 vsduser docker 4096 Jun 29  2021 openlane_old
+drwxr-xr-x 10 vsduser docker 4096 May 20  2023 openlane
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir$ cd pdks
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks$ ls -ltr
+total 12
+drwxr-xr-x 9 vsduser docker 4096 Jun 28  2021 skywater-pdk
+drwxr-xr-x 8 vsduser docker 4096 Jun 28  2021 open_pdks
+drwxr-xr-x 5 vsduser docker 4096 Jun 28  2021 sky130A
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks$ cd sky130A
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ ls  -ltr
+total 12
+drwxr-xr-x 11 vsduser docker 4096 Jun 28  2021 libs.tech
+drwxr-xr-x 14 vsduser docker 4096 Jun 28  2021 libs.ref
+-rwxr-xr-x  1 vsduser docker  170 Jun 28  2021 SOURCES
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ ls -ltr
+total 12
+drwxr-xr-x 11 vsduser docker 4096 Jun 28  2021 libs.tech
+drwxr-xr-x 14 vsduser docker 4096 Jun 28  2021 libs.ref
+-rwxr-xr-x  1 vsduser docker  170 Jun 28  2021 SOURCES
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ cd libs.ref/
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref$ ls -ltr
+total 48
+drwxr-xr-x 10 vsduser docker 4096 Jun 28  2021 sky130_osu_sc_t18
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_ms
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_ls
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hs
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hdll
+drwxr-xr-x  8 vsduser docker 4096 Jun 28  2021 sky130_fd_pr
+drwxr-xr-x  9 vsduser docker 4096 Jun 28  2021 sky130_sram_macros
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hvl
+drwxr-xr-x 11 vsduser docker 4096 Jun 28  2021 sky130_fd_io
+drwxr-xr-x  4 vsduser docker 4096 Jun 28  2021 sky130_ml_xx_hd
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_lp
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hd
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ cd libs. tech/
+bash: cd: too many arguments
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ cd libs.tech/
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech$ ls -ltr
+total 36
+drwxr-xr-x  9 vsduser docker 4096 Jun 28  2021 xschem
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 xcircuit
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 qflow
+drwxr-xr-x 10 vsduser docker 4096 Jun 28  2021 openlane
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 ngspice
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 netgen
+drwxr-xr-x  4 vsduser docker 4096 Jun 28  2021 magic
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 klayout
+drwxr-xr-x  2 vsduser docker 4096 Jun 28  2021 irsim
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ cd  libs.ref/
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref$ ls -ltr
+total 48
+drwxr-xr-x 10 vsduser docker 4096 Jun 28  2021 sky130_osu_sc_t18
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_ms
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_ls
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hs
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hdll
+drwxr-xr-x  8 vsduser docker 4096 Jun 28  2021 sky130_fd_pr
+drwxr-xr-x  9 vsduser docker 4096 Jun 28  2021 sky130_sram_macros
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hvl
+drwxr-xr-x 11 vsduser docker 4096 Jun 28  2021 sky130_fd_io
+drwxr-xr-x  4 vsduser docker 4096 Jun 28  2021 sky130_ml_xx_hd
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_lp
+drwxr-xr-x 12 vsduser docker 4096 Jun 28  2021 sky130_fd_sc_hd
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref$ cd  sky130_fd_sc_hd
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ ls -ltr
+total 88
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 verilog
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 techlef
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 spice
+drwxr-xr-x 2 vsduser docker 28672 Jun 28  2021 maglef
+drwxr-xr-x 2 vsduser docker 28672 Jun 28  2021 mag
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 lib
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 lef
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 gds
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 doc
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 cdl
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ cd  lib
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib$ ls -ltr
+total 447344
+-rwxr-xr-x 1 vsduser docker 12839325 Jun 28  2021 sky130_fd_sc_hd__tt_100C_1v80.lib
+-rwxr-xr-x 1 vsduser docker 12840502 Jun 28  2021 sky130_fd_sc_hd__tt_025C_1v80.lib
+-rwxr-xr-x 1 vsduser docker 12838573 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v76.lib
+-rwxr-xr-x 1 vsduser docker 67865927 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v60.lib
+-rwxr-xr-x 1 vsduser docker 67866428 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v60_ccsnoise.lib
+-rwxr-xr-x 1 vsduser docker 12841363 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v44.lib
+-rwxr-xr-x 1 vsduser docker 12844330 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v40.lib
+-rwxr-xr-x 1 vsduser docker 12843147 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v35.lib
+-rwxr-xr-x 1 vsduser docker 12837196 Jun 28  2021 sky130_fd_sc_hd__ss_n40C_1v28.lib
+-rwxr-xr-x 1 vsduser docker 12844125 Jun 28  2021 sky130_fd_sc_hd__ss_100C_1v60.lib
+-rwxr-xr-x 1 vsduser docker 12845948 Jun 28  2021 sky130_fd_sc_hd__ss_100C_1v40.lib
+-rwxr-xr-x 1 vsduser docker 71255250 Jun 28  2021 sky130_fd_sc_hd__ff_n40C_1v95.lib
+-rwxr-xr-x 1 vsduser docker 71255751 Jun 28  2021 sky130_fd_sc_hd__ff_n40C_1v95_ccsnoise.lib
+-rwxr-xr-x 1 vsduser docker 12843851 Jun 28  2021 sky130_fd_sc_hd__ff_n40C_1v76.lib
+-rwxr-xr-x 1 vsduser docker 12842973 Jun 28  2021 sky130_fd_sc_hd__ff_n40C_1v65.lib
+-rwxr-xr-x 1 vsduser docker 12842102 Jun 28  2021 sky130_fd_sc_hd__ff_n40C_1v56.lib
+-rwxr-xr-x 1 vsduser docker 12841550 Jun 28  2021 sky130_fd_sc_hd__ff_100C_1v95.lib
+-rwxr-xr-x 1 vsduser docker 12840659 Jun 28  2021 sky130_fd_sc_hd__ff_100C_1v65.lib
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib$ cd../
+bash: cd../: No such file or directory
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ ls -ltr
+total 88
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 verilog
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 techlef
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 spice
+drwxr-xr-x 2 vsduser docker 28672 Jun 28  2021 maglef
+drwxr-xr-x 2 vsduser docker 28672 Jun 28  2021 mag
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 lib
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 lef
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 gds
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 doc
+drwxr-xr-x 2 vsduser docker  4096 Jun 28  2021 cdl
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ cd lef
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef$ ls -ltr
+total 2212
+-rwxr-xr-x 1 vsduser docker    1822 Jun 28  2021 sky130_ef_sc_hd__fill_12.lef
+-rwxr-xr-x 1 vsduser docker    1453 Jun 28  2021 sky130_ef_sc_hd__fakediode_2.lef
+-rwxr-xr-x 1 vsduser docker    1947 Jun 28  2021 sky130_ef_sc_hd__decap_12.lef
+-rwxr-xr-x 1 vsduser docker 2252747 Jun 28  2021 sky130_fd_sc_hd.lef
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lef$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ cd techlef
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef$ ls-ltr
+ls-ltr: command not found
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef$ ls -ltr
+total 20
+-rwxr-xr-x 1 vsduser docker 18007 Jun 28  2021 sky130_fd_sc_hd.tlef
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef$ cd ../ ../ ../ ../
+bash: cd: too many arguments
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks/sky130A$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/pdks$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir$ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+baced on the following information we  can run make it in a simple way
+the information=
+
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane$ ls -ltr
+total 136
+drwxr-xr-x 15 vsduser docker   4096 Jun 29  2021 scripts
+-rw-r--r--  1 vsduser docker  20787 Jun 29  2021 run_designs.py
+-rw-r--r--  1 vsduser docker   7898 Jun 29  2021 report_generation_wrapper.py
+drwxr-xr-x  3 vsduser docker   4096 Jun 29  2021 regression_results
+-rw-r--r--  1 vsduser docker  25509 Jun 29  2021 README.md
+-rw-r--r--  1 vsduser docker   7273 Jun 29  2021 Makefile
+-rw-r--r--  1 vsduser docker  11350 Jun 29  2021 LICENSE
+-rwxr-xr-x  1 vsduser docker   6519 Jun 29  2021 flow.tcl
+drwxr-xr-x  5 vsduser docker   4096 Jun 29  2021 docs
+drwxr-xr-x  5 vsduser docker   4096 Jun 29  2021 docker_build
+drwxr-xr-x 44 vsduser docker   4096 Jun 29  2021 designs
+-rw-r--r--  1 vsduser docker   1285 Jun 29  2021 CONTRIBUTING.md
+-rw-r--r--  1 vsduser docker   5514 Jun 29  2021 conf.py
+drwxr-xr-x  2 vsduser docker   4096 Jun 29  2021 configuration
+-rwxr-xr-x  1 vsduser docker    966 Jun 29  2021 clean_runs.tcl
+-rw-r--r--  1 vsduser docker    709 Jun 29  2021 AUTHORS.md
+-rw-r--r--  1 vsduser vsduser   963 May 20  2023 default.cvcrc
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane$ cd designs
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs$ ls -ltr
+total 180
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 zipdiv
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 y_huff
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 y_dct
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 xtea
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 wbqspiflash
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 usbf_device
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 usb_cdc_core
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 usb
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 synth_ram
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 sound
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 sha512
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 sha3
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 salsa20
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 s44
+-rw-r--r-- 1 vsduser docker 10029 Jun 29  2021 README.md
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 PPU
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 point_scalar_mult
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 point_add
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 picorv32a
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 ocs_blitter
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 md5
+drwxr-xr-x 4 vsduser docker  4096 Jun 29  2021 manual_macro_placement_test
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 ldpcenc
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 ldpc_decoder_802_3an
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 jpeg_encoder
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 inverter
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 genericfir
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 digital_pll_sky130_fd_sc_hd
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 des3
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 des
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 cic_decimator
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 chacha
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 BM64
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 blabla
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 APU
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes_core
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes_cipher
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes256
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes192
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes128
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 aes
+drwxr-xr-x 3 vsduser docker  4096 Jun 29  2021 151
+drwxr-xr-x 4 vsduser docker  4096 Jun 29  2021 spm
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs$ cd picorv32a
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a$ ls -ltr
+total 28
+drwxr-xr-x 2 vsduser docker 4096 Jun 29  2021 src
+-rw-r--r-- 1 vsduser docker  209 Jun 29  2021 sky130A_sky130_fd_sc_ms_config.tcl
+-rw-r--r-- 1 vsduser docker  209 Jun 29  2021 sky130A_sky130_fd_sc_ls_config.tcl
+-rw-r--r-- 1 vsduser docker  209 Jun 29  2021 sky130A_sky130_fd_sc_hs_config.tcl
+-rw-r--r-- 1 vsduser docker  209 Jun 29  2021 sky130A_sky130_fd_sc_hdll_config.tcl
+-rwxr-xr-x 1 vsduser docker  209 Jun 29  2021 sky130A_sky130_fd_sc_hd_config.tcl
+-rwxr-xr-x 1 vsduser docker  444 Jun 29  2021 config.tcl
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a$ cd src
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src$ ls -ltr
+total 96
+-rw-r--r-- 1 vsduser docker 92423 Jun 29  2021 picorv32a.v
+-rw-r--r-- 1 vsduser docker    77 Jun 29  2021 picorv32a.sdc
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/src$ cd ../
+vsduser@vsdsquadron:~/Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a$ lessconfling.t
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+the simple way 
+
+# Design
+set ::env(DESIGN_NAME) "picorv32a"
+
+set ::env(VERILOG_FILES) "./designs/picorv32a/src/picorv32a.v"
+set ::env(SDC_FILE) "./designs/picorv32a/src/picorv32a.sdc"
+
+set ::env(CLOCK_PERIOD) "5.000"
+set ::env(CLOCK_PORT) "clk"
+
+
+set ::env(CLOCK_NET) $::env(CLOCK_PORT)
+
+
+
+
+set filename $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/$::env(PDK)_$::env(STD_CELL_LIBRARY)_config.tcl
+if { [file exists $filename] == 1} {
+        source $filename
+}
+config.tcl (END)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+this  is  the final output of the picorv32a 
+=== picorv32a ===
+
+   Number of wires:              14596
+   Number of wire bits:          14978
+   Number of public wires:        1565
+   Number of public wire bits:    1947
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              14876
+     sky130_fd_sc_hd__a2111o_2       1
+     sky130_fd_sc_hd__a211o_2       35
+     sky130_fd_sc_hd__a211oi_2      60
+     sky130_fd_sc_hd__a21bo_2      149
+     sky130_fd_sc_hd__a21boi_2       8
+     sky130_fd_sc_hd__a21o_2        57
+     sky130_fd_sc_hd__a21oi_2      244
+     sky130_fd_sc_hd__a221o_2       86
+     sky130_fd_sc_hd__a22o_2      1013
+     sky130_fd_sc_hd__a2bb2o_2    1748
+     sky130_fd_sc_hd__a2bb2oi_2     81
+     sky130_fd_sc_hd__a311o_2        2
+     sky130_fd_sc_hd__a31o_2        49
+     sky130_fd_sc_hd__a31oi_2        7
+     sky130_fd_sc_hd__a32o_2        46
+     sky130_fd_sc_hd__a41o_2         1
+     sky130_fd_sc_hd__and2_2       157
+     sky130_fd_sc_hd__and3_2        58
+     sky130_fd_sc_hd__and4_2       345
+     sky130_fd_sc_hd__and4b_2        1
+     sky130_fd_sc_hd__buf_1       1656
+     sky130_fd_sc_hd__buf_2          8
+     sky130_fd_sc_hd__conb_1        42
+     sky130_fd_sc_hd__dfxtp_2     1613
+     sky130_fd_sc_hd__inv_2       1615
+     sky130_fd_sc_hd__mux2_1      1224
+     sky130_fd_sc_hd__mux2_2         2
+     sky130_fd_sc_hd__mux4_1       221
+     sky130_fd_sc_hd__nand2_2       78
+     sky130_fd_sc_hd__nor2_2       524
+     sky130_fd_sc_hd__nor2b_2        1
+     sky130_fd_sc_hd__nor3_2        42
+     sky130_fd_sc_hd__nor4_2         1
+     sky130_fd_sc_hd__o2111a_2       2
+     sky130_fd_sc_hd__o211a_2       69
+     sky130_fd_sc_hd__o211ai_2       6
+     sky130_fd_sc_hd__o21a_2        54
+     sky130_fd_sc_hd__o21ai_2      141
+     sky130_fd_sc_hd__o21ba_2      209
+     sky130_fd_sc_hd__o21bai_2       1
+     sky130_fd_sc_hd__o221a_2      204
+     sky130_fd_sc_hd__o221ai_2       7
+     sky130_fd_sc_hd__o22a_2      1312
+     sky130_fd_sc_hd__o22ai_2       59
+     sky130_fd_sc_hd__o2bb2a_2     119
+     sky130_fd_sc_hd__o2bb2ai_2     92
+     sky130_fd_sc_hd__o311a_2        8
+     sky130_fd_sc_hd__o31a_2        19
+     sky130_fd_sc_hd__o31ai_2        1
+     sky130_fd_sc_hd__o32a_2       109
+     sky130_fd_sc_hd__o41a_2         2
+     sky130_fd_sc_hd__or2_2       1088
+     sky130_fd_sc_hd__or2b_2        25
+     sky130_fd_sc_hd__or3_2         68
+     sky130_fd_sc_hd__or3b_2         5
+     sky130_fd_sc_hd__or4_2         93
+     sky130_fd_sc_hd__or4b_2         6
+     sky130_fd_sc_hd__or4bb_2        2
+
+   Chip area for module '\picorv32a': 147712.918400
+
+29. Executing Verilog backend.
+Dumping module `\picorv32a'.
+
+Warnings: 307 unique messages, 307 total
+End of script. Logfile hash: 697fde7b6a, CPU: user 25.16s system 0.26s, MEM: 96.59 MB peak
+Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+Time spent: 59% 2x abc (35 sec), 11% 33x opt_expr (6 sec), ...
+[INFO]: Changing netlist from 0 to /openLANE_flow/designs/picorv32a/runs/27-01_17-43/results/synthesis/picorv32a.synthesis.v
+[INFO]: Running Static Timing Analysis...
+[INFO]: current step index: 2
+OpenSTA 2.3.0 38b40303a8 Copyright (c) 2019, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 31, default_operating_condition ff_n40C_1v95 not found.
+Warning: /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 32, default_operating_condition ss_100C_1v60 not found.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 4.946000000000001
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 4.946000000000001
+set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+tns -759.46
+wns -24.89
+[INFO]: Synthesis was successful
+% 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
